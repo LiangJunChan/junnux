@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <JunnuxTerminal>
+
+  </JunnuxTerminal>
 </template>
+<script setup lang="ts">
+import JunnuxTerminal from "@/components/terminal/JunnuxTerminal.vue"
+</script>
+<style scoped lang="less"></style>
