@@ -5,6 +5,9 @@
   "compilerOptions": {
     "composite": true,
     "baseUrl": ".",
+    "jsx": "preserve",
+    "module": "esnext",
+    "lib": ["es2021", "dom"],
     "paths": {
       "@/*": ["./src/*"]
     }
